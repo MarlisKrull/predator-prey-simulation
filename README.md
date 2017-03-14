@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/MarlisKrull/predator-prey-simulation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<h1 style="color:Navy;"><a id="Übe"><b>Stride Aktivitäten Krull+Tiedemann</b></a></h1>
+<p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p><a href="https://laura-tiedemann.github.io/Stundenprotokoll.github.io/">Hier geht's zu unserem Stundenprotokoll!</a></p>
+ 
+<h2 style="color:CadetBlue;"><b>Ladybug Quest</b></h2>
+<p>Bitte entnehmen Sie unsere Räuber-Beute Simulation "Ladybug Quest" dem Informatikordner auf iSurfStormarn.</p>
+    
+<h3 style="color:Navy;">Gliederung</h3>
 
-### Markdown
+<ul style="color:CadetBlue;">
+      <li><a href="#Bio">1. Biologisches Grundprinzip </a></li>
+      <li><a href="#Lot">1.1 "Lotka-Volterra-Regeln"</a></li>
+      <li><a href="#Sim">2. Simulationsentwicklung</a></li>
+      <li><a href="#Ide">2.2 Ideen</a></li>
+      <li><a href="#Imp">2.3 Implementierung</a></li>
+      <li><a href="#Wei">3. Weitere Entwicklungsideen</a></li>   
+    </ul>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<hr>
 
-```markdown
-Syntax highlighted code block
+<h3 style="color:Navy;"><a id="Bio">Biologisches Grundprinzip</a></h3>
 
-# Header 1
-## Header 2
-### Header 3
+<p> 
 
-- Bulleted
-- List
+<h4 style="color:Navy;"><a id="Lot">"Lotka-Volterra-Regeln"</a></h4>
 
-1. Numbered
-2. List
+<h3 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h3>
 
-**Bold** and _Italic_ and `Code` text
+<h4 style="color:Navy;"><a id="Ide">Ideen</a></h4>
 
-[Link](url) and ![Image](src)
-```
+<h4 style="color:Navy;"><a id="Imp">Implementierung</a></h4>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<h3 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h3>
 
-### Jekyll Themes
+<hr>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarlisKrull/predator-prey-simulation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
