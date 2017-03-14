@@ -2,7 +2,7 @@
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Aktivitäten Krull+Tiedemann</b></a></h1>
 <p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
 
-<p><a href="https://laura-tiedemann.github.io/Stundenprotokoll.github.io/">Hier geht's zu unserem Stundenprotokoll!</a></p>
+<p><a href="https://marliskrull.github.io/Stundenprotokoll_2/">Hier geht's zu unserem Stundenprotokoll!</a></p>
  
 <h2 style="color:CadetBlue;"><b>Ladybug Quest</b></h2>
 <p>Bitte entnehmen Sie unsere Räuber-Beute Simulation "Ladybug Quest" dem Informatikordner auf iSurfStormarn.</p>
