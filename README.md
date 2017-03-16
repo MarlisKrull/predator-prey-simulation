@@ -4,7 +4,7 @@
 
 <p><a href="https://marliskrull.github.io/Stundenprotokoll_2/">Hier geht's zu unserem Stundenprotokoll!</a></p>
  
-<h2 style="color:CadetBlue;"><b>Ladybug Quest</b></h2>
+<h1 style="color:CadetBlue;"><b>Ladybug Quest</b></h1>
 <p>Bitte entnehmen Sie unsere Räuber-Beute Simulation "Ladybug Quest" dem Informatikordner auf iSurfStormarn.</p>
     
 <h3 style="color:Navy;">Gliederung</h3>
@@ -47,6 +47,9 @@ style="width:400px;height:250px;border:0;"></p>
 <h4 style="color:Navy;"><a id="Ide">Ideen</a></h4>
 
 <h4 style="color:Navy;"><a id="Imp">Implementierung</a></h4>
+
+<>
+
 
 <h3 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h3>
 
