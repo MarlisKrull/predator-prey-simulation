@@ -55,13 +55,35 @@ style="width:400px;height:250px;border:0;"></p>
 <p>Die act-Methode der Laus-Klasse enthält 6 Methoden, die im Folgenden detailliert beschrieben werden. <br>
 Um das Geschlecht der Laus festzulegen, wird eine Variable "istWeiblich" vom Typ boolean erstellt. Diese wird im Constructor zu einer 50%-igen Wahrscheinlichkeit entweder auf true oder auf false gesetzt. Die Laus ist also entweder weiblich, oder nicht.</p>
 
-
 <p><img src="Images/Laus2.jpg" style="width:780px;height:110px;border:0;"></p>
+
+<p>Diese Fragemethode gibt den Wert vom boolean "istWeiblich" wieder.</p>
+
 <p><img src="Images/Laus3.jpg" style="width:775px;height:375px;border:0;"></p>
+
+<p>Dies ist die Bewegungsmethode der Laus. <br>
+Die Laus läuft konstant mit einer Geschwindigkeit von 5 Pixel/Tic über den Bildschirm und dreht sich mit je einer Wahrscheinlichkeit von 2,5 % entweder um 45, 90, 180 oder 270 Grad im Uhrzeigersinn. Wenn die Laus am Rand der Welt angekommen ist, dreht sie sich um 180 Grad. <br>
+Mit diesem Bewegungsmuster bewegt sich die Laus nach einer Weile regelmäßig über den gesamten Bildschirm. </p>
+
 <p><img src="Images/Laus4.jpg" style="width:777px;height:511px;border:0;"></p>
+
+<p>Mit dieser Methode vermehrt sich die Laus. <br>
+</p>
+
 <p><img src="Images/Laus5.jpg" style="width:775px;height:183px;border:0;"></p>
+
+<p>Mit dieser Methode verteilt die Laus Pheromone, die die Käfer anlocken sollen.<br>
+Dazu wurde eine Variable "PheromonTimer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Dieser wird am Anfang randomisiert, sodass die Läuse nicht alle zum selben Zeitpunkt Pheromone fallen lassen. Wenn der PheromonTimer bei 50 angelangt ist, wird ein neues Pheromon an der aktuellen Position der Laus eingefügt und der PheromonTimer wieder auf 0 gesetzt.</p>
+
 <p><img src="Images/Laus6.jpg" style="width:777px;height:200px;border:0;"></p>
+
+<p>Diese Methode simuliert die Konkurrenz zwischen den einzelnen Läusen.<br>
+Sie erstellt eine Liste von allen Läusen im Umkreis von 100 Pixeln. Die Variable "Llist" vom Typ integer entspricht der Anzahl der Läusen auf dieser Liste. Wenn die Anzahl größer als 55 ist, wird eine zufällige Laus von dieser Liste aus der Welt entfernt. Dies soll verhindern, dass sich die Läuse übermäßig vermehren.</p>
+
 <p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
+
+<p>Diese Methode lässt die Laus nach einer gewissen Lebensdauer sterben.<br>
+Hierfür wird eine Variable vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
 
 <h4 style="color:CadetBlue;">Die Käfer-Klasse</h4>
 
