@@ -50,6 +50,11 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h4 style="color:CadetBlue;">Die Laus-Klasse</h4>
 
+<p>Die act-Methode der Laus-Klasse enthält 6 Methoden, die im Folgenden detailliert beschrieben werden.</p>
+
+<p><img src="Laus1.jpg" style="width:776px;height:779px;border:0;"></p>
+
+
 <h4 style="color:CadetBlue;">Die Käfer-Klasse</h4>
 
 <h4 style="color:CadetBlue;">Die Pheromone-Klasse</h4>
