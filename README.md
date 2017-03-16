@@ -7,7 +7,7 @@
 <h1 style="color:CadetBlue;"><b>Ladybug Quest</b></h1>
 <p>Bitte entnehmen Sie unsere Räuber-Beute Simulation "Ladybug Quest" dem Informatikordner auf iSurfStormarn.</p>
     
-<h3 style="color:Navy;">Gliederung</h3>
+<h2 style="color:Navy;">Gliederung</h2>
 
 <ul style="color:CadetBlue;">
       <li><a href="#Bio">1. Biologische Grundlagen </a></li>
@@ -20,11 +20,11 @@
 
 <hr>
 
-<h3 style="color:Navy;"><a id="Bio">Biologische Grundlagen</a></h3>
+<h2 style="color:Navy;"><a id="Bio">Biologische Grundlagen</a></h2>
 
 <p> 
 
-<h4 style="color:Navy;"><a id="Lot">"Lotka-Volterra-Regeln"</a></h4>
+<h3 style="color:Navy;"><a id="Lot">"Lotka-Volterra-Regeln"</a></h3>
 
 <p> Die Lotka-Volterra-Regeln, auch Lotka-Volterra-Gesetze oder nur Volterra-Regeln genannt, umfassen drei Regeln zur quantitativen Beschreibung der Populationsdynamik in Räuber-Beute-Beziehungen. </p>
 
@@ -42,16 +42,22 @@ style="width:400px;height:250px;border:0;"></p>
 <p>Für weitere Informationen zu den Lotka-Volterra-Regeln, siehe: <br> 
 <a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln">https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln</a></p>
 
-<h3 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h3>
+<h2 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h2>
 
-<h4 style="color:Navy;"><a id="Ide">Ideen</a></h4>
+<h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
 
-<h4 style="color:Navy;"><a id="Imp">Implementierung</a></h4>
+<h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
 
-<>
+<h4 style="color:CadetBlue;">Die Laus-Klasse</h4>
+
+<h4 style="color:CadetBlue;">Die Käfer-Klasse</h4>
+
+<h4 style="color:CadetBlue;">Die Pheromone-Klasse</h4>
+
+<h4 style="color:CadetBlue;">Der Graph</h4>
 
 
-<h3 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h3>
+<h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
 <hr>
 
