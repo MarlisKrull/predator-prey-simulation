@@ -94,6 +94,12 @@ Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jede
 
 <h4 style="color:CadetBlue;"><a id="Käf"> Die Käfer-Klasse </a></h4>
 
+<p><img src="Images/Käfer1.jpg" style="width:780px;height:661px;border:0;"></p>
+<p><img src="Images/Käfer2.jpg" style="width:778px;height:165px;border:0;"></p>
+<p><img src="Images/Käfer3.jpg" style="width:779px;height:275px;border:0;"></p>
+<p><img src="Images/Käfer4.jpg" style="width:782px;height:237px;border:0;"></p>
+
+
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
