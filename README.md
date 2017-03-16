@@ -85,7 +85,7 @@ Dazu wurde eine Variable "PheromonTimer" vom Typ integer erstellt, die mit jedem
 <p><img src="Images/Laus6.jpg" style="width:777px;height:200px;border:0;"></p>
 
 <p>Diese Methode simuliert die Konkurrenz zwischen den einzelnen Läusen.<br>
-Sie erstellt eine Liste von allen Läusen im Umkreis von 100 Pixeln. Die Variable "Llist" vom Typ integer entspricht der Anzahl der Läusen auf dieser Liste. Wenn die Anzahl größer als 55 ist, wird eine zufällige Laus von der Liste aus der Welt entfernt. Dies soll verhindern, dass sich die Läuse übermäßig vermehren.</p>
+Sie erstellt eine Variable "list", die eine Liste von allen Läusen im Umkreis von 100 Pixeln enthält. Die Variable "Llist" vom Typ integer entspricht der Anzahl der Läusen auf dieser Liste. Wenn die Anzahl größer als 55 ist, wird eine zufällige Laus von der Liste aus der Welt entfernt. Dies soll verhindern, dass sich die Läuse übermäßig vermehren.</p>
 
 <p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
 
