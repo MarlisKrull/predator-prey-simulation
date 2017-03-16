@@ -72,10 +72,10 @@ Um das Geschlecht der Laus festzulegen, wird eine Variable "istWeiblich" vom Typ
 Die Laus läuft konstant mit einer Geschwindigkeit von 5 Pixel/Tic über den Bildschirm und dreht sich mit je einer Wahrscheinlichkeit von 2,5 % entweder um 45, 90, 180 oder 270 Grad im Uhrzeigersinn. Wenn die Laus am Rand der Welt angekommen ist, dreht sie sich um 180 Grad. <br>
 Mit diesem Bewegungsmuster bewegt sich die Laus nach einer Weile regelmäßig über den gesamten Bildschirm. </p>
 
-<p><img src="Images/Laus4.jpg" style="width:777px;height:511px;border:0;"></p>
+<p><img src="Images/Laus4.jpg" style="width:771px;height:299px;border:0;"></p>
 
 <p>Mit dieser Methode vermehrt sich die Laus. <br>
-</p>
+Wenn eine weibliche Laus eine andere Laus berührt, erkennt sie diese Laus und erstellt eine Variable "laus" für diese Laus. Wenn "laus" nicht weiblich ist und die Lebensdauer beider Läuse über 25 Tics ist, wird eine neue Laus an der aktuellen Position in die Welt eingefügt.</p>
 
 <p><img src="Images/Laus5.jpg" style="width:775px;height:183px;border:0;"></p>
 
