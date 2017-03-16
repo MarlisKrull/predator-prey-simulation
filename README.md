@@ -39,7 +39,7 @@ style="width:400px;height:250px;border:0;"></p>
 
 <p>Die Lotka-Volterra-Regeln sind strenggenommen nur unter Beachtung ihrer selten erfüllten Voraussetzungen anwendbar. Trotzdem sind sie in der praktischen Ökologie von großer Bedeutung, weil sich zeigt, dass sie auch bei komplexeren Nahrungsbeziehungen und schwankenden Umweltfaktoren durchaus noch brauchbare Abschätzungen liefern.</p>
 <p><a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln"> Quelle </a> </p>
-<p>Für weitere Informationen zu den Lotka-Volterra-Regeln, siehe: 
+<p>Für weitere Informationen zu den Lotka-Volterra-Regeln, siehe: <br> 
 <a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln">https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln</a></p>
 
 <h3 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h3>
