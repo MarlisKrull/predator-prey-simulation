@@ -1,6 +1,6 @@
 
 <h1 style="color:Navy;"><a id="Übe"><b>Stride Aktivitäten Krull+Tiedemann</b></a></h1>
-<p>Informatik bei Herrn Buhl, 2. Halbjahr 2016/17</p>
+<p>Informatik bei Herrn Buhl, 4. Halbjahr Qualifikationsphase</p>
 
 <p><a href="https://marliskrull.github.io/Stundenprotokoll_2/">Hier geht's zu unserem Stundenprotokoll!</a></p>
  
