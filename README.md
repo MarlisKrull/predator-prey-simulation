@@ -75,7 +75,7 @@ Mit diesem Bewegungsmuster bewegt sich die Laus nach einer Weile regelmäßig ü
 <p><img src="Images/Laus4.jpg" style="width:771px;height:299px;border:0;"></p>
 
 <p>Mit dieser Methode vermehrt sich die Laus. <br>
-Wenn eine weibliche Laus eine andere Laus berührt, erkennt sie diese Laus und erstellt eine Variable "laus" für diese Laus. Wenn "laus" nicht weiblich ist und die Lebensdauer beider Läuse über 25 Tics ist, wird eine neue Laus an der aktuellen Position in die Welt eingefügt.</p>
+Wenn eine Laus, die weiblich ist und eine höhere Lebensdauer als 25 hat, eine andere Laus berührt, wird für diese eine Variable "laus" erstellt. Wenn "laus" nicht weiblich ist und ebenfalls eine höhere Lebensdauer als 25 hat, wird zu einer Wahrscheinlichkeit von 90 % eine neue Laus an der Position der beiden Läuse in die Welt gesetzt. </p>
 
 <p><img src="Images/Laus5.jpg" style="width:775px;height:183px;border:0;"></p>
 
@@ -90,9 +90,9 @@ Sie erstellt eine Liste von allen Läusen im Umkreis von 100 Pixeln. Die Variabl
 <p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
 
 <p>Diese Methode lässt die Laus nach einer gewissen Lebensdauer sterben.<br>
-Hierfür wird eine Variable vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
+Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
 
-<h4 style="color:CadetBlue;"><a id="Käf">Die Käfer-Klasse</a></h4>
+<h4 style="color:CadetBlue;"><a id="Käf"> Die Käfer-Klasse </a></h4>
 
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
