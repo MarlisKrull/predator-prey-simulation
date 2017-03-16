@@ -10,7 +10,7 @@
 <h3 style="color:Navy;">Gliederung</h3>
 
 <ul style="color:CadetBlue;">
-      <li><a href="#Bio">1. Biologisches Grundprinzip </a></li>
+      <li><a href="#Bio">1. Biologische Grundlagen </a></li>
       <li><a href="#Lot">1.1 "Lotka-Volterra-Regeln"</a></li>
       <li><a href="#Sim">2. Simulationsentwicklung</a></li>
       <li><a href="#Ide">2.2 Ideen</a></li>
@@ -20,11 +20,24 @@
 
 <hr>
 
-<h3 style="color:Navy;"><a id="Bio">Biologisches Grundprinzip</a></h3>
+<h3 style="color:Navy;"><a id="Bio">Biologische Grundlagen</a></h3>
 
 <p> 
 
 <h4 style="color:Navy;"><a id="Lot">"Lotka-Volterra-Regeln"</a></h4>
+
+<p> Die Lotka-Volterra-Regeln, auch Lotka-Volterra-Gesetze oder nur Volterra-Regeln genannt, umfassen drei Regeln zur quantitativen Beschreibung der Populationsdynamik in Räuber-Beute-Beziehungen. </p>
+
+<ul style="color:CadetBlue;">
+<li>Erste Lotka-Volterra-Regel (Periodische Populationsschwankung): Die Populationsgrößen von Räuber und Beute schwanken periodisch. Dabei folgen die Schwankungen der Räuberpopulation phasenverzögert denen der Beutepopulation. Die Länge der Perioden hängt von den Anfangsbedingungen und von den Wachstumsraten der Populationen ab.</li>
+<li>Zweite Lotka-Volterra-Regel (Konstanz der Mittelwerte): Die über genügend lange Zeiträume gemittelten Größen (Mittelwert) der Räuber- bzw. Beutepopulation sind konstant. Die Größe der Mittelwerte hängt nur von den Wachstums- und Rückgangsraten der Populationen, nicht aber von den Anfangsbedingungen ab.</li>
+<li>Dritte Lotka-Volterra-Regel (Störung der Mittelwerte): Werden Räuber- und Beutepopulation gleichermaßen proportional zu ihrer Größe dezimiert, so vergrößert sich kurzfristig der Mittelwert der Beutepopulation, während der Mittelwert der Räuberpopulation kurzfristig sinkt.</li>
+</ul>
+
+<p>Die Lotka-Volterra-Regeln sind strenggenommen nur unter Beachtung ihrer selten erfüllten Voraussetzungen anwendbar. Trotzdem sind sie in der praktischen Ökologie von großer Bedeutung, weil sich zeigt, dass sie auch bei komplexeren Nahrungsbeziehungen und schwankenden Umweltfaktoren durchaus noch brauchbare Abschätzungen liefern.</p>
+<p><a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln"> Quelle </a> </p>
+<p>Für weitere Informationen zu den Lotka-Volterra-Regeln, siehe: 
+<a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln">https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln</a></p>
 
 <h3 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h3>
 
