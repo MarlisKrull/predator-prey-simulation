@@ -48,7 +48,14 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
 
-<h4 style="color:CadetBlue;">Die Laus-Klasse</h4>
+<ul style="color:CadetBlue;">
+      <li><a href="#Lau">Die Laus-Klasse </a></li>
+      <li><a href="#Käf">Die Käfer-Klasse"</a></li>
+      <li><a href="#Phe">Die Pheromone-Klasse</a></li>
+      <li><a href="#Gra">Der Graph</a></li>
+    </ul>
+
+<h4 style="color:CadetBlue;"><a id="Lau">Die Laus-Klasse</a></h4>
 
 <p><img src="Images/Laus1.jpg" style="width:776px;height:679px;border:0;"></p>
 
@@ -73,23 +80,23 @@ Mit diesem Bewegungsmuster bewegt sich die Laus nach einer Weile regelmäßig ü
 <p><img src="Images/Laus5.jpg" style="width:775px;height:183px;border:0;"></p>
 
 <p>Mit dieser Methode verteilt die Laus Pheromone, die die Käfer anlocken sollen.<br>
-Dazu wurde eine Variable "PheromonTimer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Dieser wird am Anfang randomisiert, sodass die Läuse nicht alle zum selben Zeitpunkt Pheromone fallen lassen. Wenn der PheromonTimer bei 50 angelangt ist, wird ein neues Pheromon an der aktuellen Position der Laus eingefügt und der PheromonTimer wieder auf 0 gesetzt.</p>
+Dazu wurde eine Variable "PheromonTimer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Diese wird am Anfang randomisiert, sodass die Läuse nicht alle zum selben Zeitpunkt Pheromone fallen lassen. Wenn der PheromonTimer bei 50 angelangt ist, wird ein neues Pheromon an der aktuellen Position der Laus eingefügt und der PheromonTimer wieder auf 0 gesetzt.</p>
 
 <p><img src="Images/Laus6.jpg" style="width:777px;height:200px;border:0;"></p>
 
 <p>Diese Methode simuliert die Konkurrenz zwischen den einzelnen Läusen.<br>
-Sie erstellt eine Liste von allen Läusen im Umkreis von 100 Pixeln. Die Variable "Llist" vom Typ integer entspricht der Anzahl der Läusen auf dieser Liste. Wenn die Anzahl größer als 55 ist, wird eine zufällige Laus von dieser Liste aus der Welt entfernt. Dies soll verhindern, dass sich die Läuse übermäßig vermehren.</p>
+Sie erstellt eine Liste von allen Läusen im Umkreis von 100 Pixeln. Die Variable "Llist" vom Typ integer entspricht der Anzahl der Läusen auf dieser Liste. Wenn die Anzahl größer als 55 ist, wird eine zufällige Laus von der Liste aus der Welt entfernt. Dies soll verhindern, dass sich die Läuse übermäßig vermehren.</p>
 
 <p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
 
 <p>Diese Methode lässt die Laus nach einer gewissen Lebensdauer sterben.<br>
 Hierfür wird eine Variable vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
 
-<h4 style="color:CadetBlue;">Die Käfer-Klasse</h4>
+<h4 style="color:CadetBlue;"><a id="Käf">Die Käfer-Klasse</a></h4>
 
-<h4 style="color:CadetBlue;">Die Pheromone-Klasse</h4>
+<h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
-<h4 style="color:CadetBlue;">Der Graph</h4>
+<h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
