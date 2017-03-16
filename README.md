@@ -50,10 +50,18 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h4 style="color:CadetBlue;">Die Laus-Klasse</h4>
 
-<p>Die act-Methode der Laus-Klasse enthält 6 Methoden, die im Folgenden detailliert beschrieben werden.</p>
-
 <p><img src="Images/Laus1.jpg" style="width:776px;height:779px;border:0;"></p>
 
+<p>Die act-Methode der Laus-Klasse enthält 6 Methoden, die im Folgenden detailliert beschrieben werden. <br>
+Um das Geschlecht der Laus festzulegen, wird eine Variable "istWeiblich" vom Typ boolean erstellt. Diese wird im Constructor zu einer 50%-igen Wahrscheinlichkeit entweder auf true oder auf false gesetzt. Die Laus ist also entweder weiblich, oder nicht.</p>
+
+
+<p><img src="Images/Laus2.jpg" style="width:780px;height:110px;border:0;"></p>
+<p><img src="Images/Laus3.jpg" style="width:775px;height:375px;border:0;"></p>
+<p><img src="Images/Laus4.jpg" style="width:777px;height:511px;border:0;"></p>
+<p><img src="Images/Laus5.jpg" style="width:775px;height:183px;border:0;"></p>
+<p><img src="Images/Laus6.jpg" style="width:777px;height:200px;border:0;"></p>
+<p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
 
 <h4 style="color:CadetBlue;">Die Käfer-Klasse</h4>
 
