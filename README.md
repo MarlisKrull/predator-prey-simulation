@@ -102,6 +102,8 @@ Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jede
 
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
+<p><img src="Images/Pheromone.jpg" style="width:792px;height:453px;border:0;"></p>
+
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
 
