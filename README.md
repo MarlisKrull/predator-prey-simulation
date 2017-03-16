@@ -60,7 +60,7 @@ style="width:400px;height:250px;border:0;"></p>
 <p><img src="Images/Laus1.jpg" style="width:776px;height:679px;border:0;"></p>
 
 <p>Die act-Methode der Laus-Klasse enthält 6 Methoden, die im Folgenden detailliert beschrieben werden. <br>
-Um das Geschlecht der Laus festzulegen, wird eine Variable "istWeiblich" vom Typ boolean erstellt. Diese wird im Constructor zu einer 50%-igen Wahrscheinlichkeit entweder auf true oder auf false gesetzt. Die Laus ist also entweder weiblich, oder nicht.</p>
+Um das Geschlecht der Laus festzulegen, wird eine Variable "istWeiblich" vom Typ boolean erstellt. Diese wird im Constructor zu einer 50%-igen Wahrscheinlichkeit auf true gesetzt, andernfalls ist sie false. Die Laus ist also entweder weiblich, oder nicht weiblich, also männlich.</p>
 
 <p><img src="Images/Laus2.jpg" style="width:780px;height:110px;border:0;"></p>
 
