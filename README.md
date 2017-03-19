@@ -49,11 +49,14 @@ style="width:400px;height:250px;border:0;"></p>
 <h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
 
 <ul style="color:CadetBlue;">
+<li><a href="#Wor">MyWorld </a></li>
       <li><a href="#Lau">Die Laus-Klasse </a></li>
       <li><a href="#Käf">Die Käfer-Klasse"</a></li>
       <li><a href="#Phe">Die Pheromone-Klasse</a></li>
       <li><a href="#Gra">Der Graph</a></li>
     </ul>
+
+<h4 style="color:CadetBlue;"><a id="Wor">MyWorld</a></h4>
 
 <h4 style="color:CadetBlue;"><a id="Lau">Die Laus-Klasse</a></h4>
 
@@ -118,6 +121,9 @@ Die Variable "HungerTimer" vom Typ integer steigt mit jedem Tic um 1. Wenn sie b
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
 <p><img src="Images/Pheromone.jpg" style="width:792px;height:453px;border:0;"></p>
+
+<p>Die act-Methode der Pheromone-Klasse enthält nur eine Methode:"selfdestruction". Mit dieser Methode zerstören sich die Pheromone nach einer gewissen Zeit von selbst. <br>
+Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht. Ist sie bei 60 angelangt, wird das Pheromon aus der Welt entfernt und der "DestructionTimer" resettet.</p>
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
