@@ -42,6 +42,8 @@ style="width:400px;height:250px;border:0;"></p>
 <p>Für weitere Informationen zu den Lotka-Volterra-Regeln, siehe: <br> 
 <a href="https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln">https://de.wikipedia.org/wiki/Lotka-Volterra-Regeln</a></p>
 
+<hr>
+
 <h2 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h2>
 
 <h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
@@ -56,11 +58,24 @@ style="width:400px;height:250px;border:0;"></p>
       <li><a href="#Gra">Der Graph</a></li>
     </ul>
 
+<hr>
+
 <h4 style="color:CadetBlue;"><a id="Wor">MyWorld</a></h4>
 
 <p><img src="Images/MyWorld1.jpg" style="width:781px;height:260px;border:0;"></p>
+
+<p>Die Welt ist 1200 x 700 Zellen groß und 1 Pixel entspricht der Größe einer Zelle.</p>
+
 <p><img src="Images/MyWorld2.jpg" style="width:779px;height:386px;border:0;"></p>
+
+<p>Die "prepare"-Methode der Welt setzt zu Anfang des Szenarios eine Graph, einen Graph 2, einen Hintergrund, 300 Läuse und 30 Käfer in die Welt. <br>
+Die Käfer und Läuse werden mit einer While-Schleife generiert. Solange weniger als 300 Läuse bzw. weniger als 30 Käfer in der Welt sind, werden jeweils neue hinzugefügt.</p>
+
 <p><img src="Images/MyWorld3.jpg" style="width:770px;height:278px;border:0;"></p>
+
+<p>Die act-Methode der MyWorld enthält nur die Methode "countActors". Diese erstellt jeweils eine Liste ("Lauslist" und "Käferlist") von allen Läusen/Käfern in der Welt. Die Variablen "LausCounter" und "KäferCounter" vom Typ integer enthalten jeweils die Anzahl der Läuse/Käfer auf der "Lausliste"/"Käferliste". Sie ist public und kann daher von den Actors Graph und Graph2 abgerufen werden.</p>
+
+<hr>
 
 <h4 style="color:CadetBlue;"><a id="Lau">Die Laus-Klasse</a></h4>
 
@@ -99,9 +114,9 @@ Sie erstellt eine Variable "list", die eine Liste von allen Läusen im Umkreis v
 <p>Diese Methode lässt die Laus nach einer gewissen Lebensdauer sterben.<br>
 Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
 
+<hr>
+
 <h4 style="color:CadetBlue;"><a id="Käf"> Die Käfer-Klasse </a></h4>
-
-
 
 <p><img src="Images/Käfer1.jpg" style="width:780px;height:661px;border:0;"></p>
 
@@ -122,12 +137,16 @@ So richtet sich der Käfer alle 35 Tics neu aus. Zudem richtet sich der Käfer n
 <p>Diese Methode lässt den Käfer verhungern, wenn er nicht genügend Läuse gefressen hat. Dies ist sehr wichtig, da es die Käfer-Population von der Laus-Population abhängig macht.<br>
 Die Variable "HungerTimer" vom Typ integer steigt mit jedem Tic um 1. Wenn sie bei 100 angekommen ist, wird überprüft, ob der Käfer weniger als 5 Läuse gefressen hat. Dafür wird die Variable "LausCounter" verwendet, die mit jeder gefressenen Laus um 1 steigt. Wenn der Käfer weniger als 5 Läuse gefressen hat, wird er aus der Welt entfernt. "HungerTimer" und "LausCounter" werden anschließend auf 0 zurückgesetzt.</p>
 
+<hr>
+
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
 <p><img src="Images/Pheromone.jpg" style="width:792px;height:453px;border:0;"></p>
 
 <p>Die act-Methode der Pheromone-Klasse enthält nur eine Methode:"selfdestruction". Mit dieser Methode zerstören sich die Pheromone nach einer gewissen Zeit von selbst. <br>
 Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht. Ist sie bei 60 angelangt, wird das Pheromon aus der Welt entfernt und der "DestructionTimer" resettet.</p>
+
+<hr>
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
