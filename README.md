@@ -94,11 +94,26 @@ Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jede
 
 <h4 style="color:CadetBlue;"><a id="Käf"> Die Käfer-Klasse </a></h4>
 
+
+
 <p><img src="Images/Käfer1.jpg" style="width:780px;height:661px;border:0;"></p>
+
+<p>Die Methoden der Käfer-Klasse "run", "vermehren", "weiblich" und "sterben" sind mit den gleichnamigen Methoden der Laus-Klasse identisch, nur, dass der Käfer sich schneller bewegt als die Laus (7 Pixel/Tic), sich langsamer vermehrt (Lebensdauer muss über 300 Tics sein und die Fortpflanzungswahrscheinlichkeit beträgt 50 % ) und länger lebt (1 200 Tics). </p>
+
 <p><img src="Images/Käfer2.jpg" style="width:778px;height:165px;border:0;"></p>
+
+<p>Diese Methode bewirkt, dass der Käfer die Laus frisst. Wenn ein Käfer eine Laus berührt, wird die Laus entfernt. <br>
+Mit jeder gefressenen Laus wird die Variable "LausCounter" vom Typ integer um 1 erhöht.</p>
+
 <p><img src="Images/Käfer3.jpg" style="width:779px;height:275px;border:0;"></p>
+
+<p>Mithilfe dieser Methode erkennt der Käfer die Pheromone, die die Läuse fallenlassen und dreht sich in Richtung der Pheromone. <br> Die Variable "Ptimer" vom Typ integer wird mit jedem Tic um 1 erhöht. Wenn sie 35 erreicht hat, wird eine Variable "list" erstellt, die eine Liste von allen sich im Umkreis von 350 Pixeln befindlichen Pheromonen enthält. Die Variable "Plist" vom Typ integer enthält die Anzahl der Pheromone auf der Liste. Wenn "Plist" größer als 150 Pheromone ist, wird eine Variable "p" vom Typ Pheromone erstellt. Hierfür wird das 100ste Pheromon auf der Liste "list" ausgewählt. Anschließend dreht sich der Käfer in Richtung dieses Pheromons "p" und der "Ptimer" wird wieder auf 0 gesetzt.<br>
+So richtet sich der Käfer alle 35 Tics neu aus. Zudem richtet sich der Käfer nur nach den Pheromonen aus, wenn diese in entsprechend großer Anzahl verhanden sind (150). </p>
+
 <p><img src="Images/Käfer4.jpg" style="width:782px;height:237px;border:0;"></p>
 
+<p>Diese Methode lässt den Käfer verhungern, wenn er nicht genügend Läuse gefressen hat. Dies ist sehr wichtig, da es die Käfer-Population von der Laus-Population abhängig macht.<br>
+Die Variable "HungerTimer" vom Typ integer steigt mit jedem Tic um 1. Wenn sie bei 100 angekommen ist, wird überprüft, ob der Käfer weniger als 5 Läuse gefressen hat. Dafür wird die Variable "LausCounter" verwendet, die mit jeder gefressenen Laus um 1 steigt. Wenn der Käfer weniger als 5 Läuse gefressen hat, wird er aus der Welt entfernt. "HungerTimer" und "LausCounter" werden anschließend auf 0 zurückgesetzt.</p>
 
 <h4 style="color:CadetBlue;"><a id="Phe">Die Pheromone-Klasse</a></h4>
 
