@@ -58,6 +58,10 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h4 style="color:CadetBlue;"><a id="Wor">MyWorld</a></h4>
 
+<p><img src="Images/MyWorld1" style="width:781px;height:260px;border:0;"></p>
+<p><img src="Images/MyWorld2" style="width:779px;height:386px;border:0;"></p>
+<p><img src="Images/MyWorld3" style="width:770px;height:278px;border:0;"></p>
+
 <h4 style="color:CadetBlue;"><a id="Lau">Die Laus-Klasse</a></h4>
 
 <p><img src="Images/Laus1.jpg" style="width:776px;height:679px;border:0;"></p>
