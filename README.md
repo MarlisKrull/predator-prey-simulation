@@ -172,6 +172,8 @@ Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skalier
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
+<p> Die Räuber-Beute-Simulation ist bereits naturgetreu dargestellt, sodass sich beispielsweise die Läuse jeweils schneller vermehren als die Käfer. Jedoch gibt es immer weiteres Entwicklungspotential. <br> So wäre die Einbringung verschiedener Mutationen ein weiterer Fortschritt. Je nach Mutation würden die besser angepassten überleben, so dass sich evt. die Farbe des Panzers oder die Größe verändert. <br> Zudem müssten die Läuse das Blatt fressen, auf welchem sie laufen. Auch eine Veränderung des Blattes und somit des Ökosystems wäre durch die Einführung von den vier Jahreszeiten interessant. </p>
+
 <hr>
 
 <p style="color:CadetBlue;"><a href="#Übe">zum Seitenanfang</a></p>
