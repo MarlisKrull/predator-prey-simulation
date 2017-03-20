@@ -68,7 +68,7 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h4 style="color:CadetBlue;"><a id="Wor">MyWorld</a></h4>
 
-<p><img src="Images/MyWorld1.jpg" style="width:781px;height:260px;border:0;"></p>
+<p><img src="Images/MyWorld1.jpg" style="width:779px;height:276px;border:0;"></p>
 
 <p>Die Welt ist 1200 x 700 Zellen groß und 1 Pixel entspricht der Größe einer Zelle.</p>
 
