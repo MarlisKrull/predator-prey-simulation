@@ -119,7 +119,7 @@ Sie erstellt eine Variable "list", die eine Liste von allen Läusen im Umkreis v
 <p><img src="Images/Laus7.jpg" style="width:776px;height:163px;border:0;"></p>
 
 <p>Diese Methode lässt die Laus nach einer gewissen Lebensdauer sterben.<br>
-Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt</p>
+Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Nach 100 Tics stirbt die Laus und wird aus der Welt entfernt.</p>
 
 <hr>
 
@@ -155,7 +155,7 @@ Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht.
 
 <hr>
 
-<h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
+<h4 style="color:CadetBlue;"><a id="Gra">Der Graph</a></h4>
 
 <p>Der Graph besteht aus zwei verschiedenen Klassen, einmal "Graph" und einmal "Graph2". <br>
 "Graph" ist für die visuelle Darstellung der Lauspopulation verantwortlich und "Graph2" für die der Käferpopulation. Leider ist es uns nicht gelungen, diese zwei Graphen mit nur einer Klasse darzustellen.</p>
