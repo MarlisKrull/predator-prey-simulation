@@ -150,7 +150,13 @@ Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht.
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
+<p>Der Graph besteht aus zwei verschiedenen Klassen, einmal "Graph" und einmal "Graph2". "Graph" ist für die visuelle Darstellung der Lauspopulation verantwortlich und "Graph2" für die der Käferpopulation. Leider ist es uns nicht gelungen, diese zwei Graphen mit nur einer Klasse darzustellen.</p>
+
 <p><img src="Images/Graph.jpg" style="width:780px;height:527px;border:0;"></p>
+
+<p>Dieser Screenshot ist aus der "Graph"-Klasse, die beiden Klassen funktionieren aber nach demselben Prinzip. <br>
+Zunächst wird ein Bild für die "Graph"-Klasse gewählt. In diesem Fall ist dieses Bild "blauerBalken.jpg". <br>
+Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skaliert. Die Skalierung richtet sich nach der Anzahl der Läuse in der Welt.  Hierzu wurde eine Variable "Timer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Wenn der "LausCounter"/5 größer ist als 1 und der Timer einen Wert von 5 erreicht hat wird das Bild neu skaliert. Die Breite des Bildes beträgt immer 15 und die Höhe wird durch die Variable "LausCounter" festgelegt. Anschließend wird der "Timer" noch resettet.  </p>
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
