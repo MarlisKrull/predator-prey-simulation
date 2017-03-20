@@ -80,7 +80,7 @@ Außerdem wird noch das Bild "BarChart.jpg" auf die linken Seite des Hintergrund
 
 <p><img src="Images/MyWorld3.jpg" style="width:770px;height:278px;border:0;"></p>
 
-<p>Die act-Methode der MyWorld enthält nur die Methode "countActors". Diese erstellt jeweils eine Liste ("Lauslist" und "Käferlist") von allen Läusen/Käfern in der Welt. Die Variablen <a id="LauC">"LausCounter"</a> und <a id="KäfC">"KäferCounter"</a> vom Typ integer enthalten jeweils die Anzahl der Läuse/Käfer auf der "Lausliste"/"Käferliste". Sie ist public und kann daher von den Actors Graph und Graph2 abgerufen werden.</p>
+<p>Die act-Methode der MyWorld enthält nur die Methode "countActors". Diese erstellt jeweils eine Liste ("Lauslist" und "Käferlist") von allen Läusen/Käfern in der Welt. Die Variablen <a id="LauC">"LausCounter"</a> und <a id="KäfC">"KäferCounter"</a> vom Typ integer enthalten jeweils die Anzahl der Läuse/Käfer auf der "Lausliste"/"Käferliste". Sie ist public und kann daher von den Actors <a href="#Gra"> "Graph" und "Graph2"</a> abgerufen werden.</p>
 
 <hr>
 
@@ -166,7 +166,7 @@ Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht.
 Zunächst wird ein Bild für die "Graph"-Klasse gewählt. In diesem Fall ist dieses Bild "blauerBalken.jpg". <br>
 Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skaliert. Die Skalierung richtet sich nach der Anzahl der Läuse in der Welt.  Hierzu wurde eine Variable "Timer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Wenn der 
 <a href="#LauC">"LausCounter"</a>/5 größer ist als 1 und der Timer einen Wert von 5 erreicht hat wird das Bild neu skaliert. Die Breite des Bildes beträgt immer 15 und die Höhe wird durch die Variable <a href="#LauC">"LausCounter"</a> festgelegt. Anschließend wird der "Timer" noch resettet.<br>
-"Graph2", der die Käferpopulation visualisiert, nutzt als Bild "roterBalken.jpg" und die Variable <a href="KäfC">"KäferCounter"</a> zur Skalierung der Höhe des Bildes.</p>
+"Graph2", der die Käferpopulation visualisiert, nutzt als Bild "roterBalken.jpg" und die Variable <a href="#KäfC">"KäferCounter"</a> zur Skalierung der Höhe des Bildes.</p>
 
 <hr>
 
