@@ -66,9 +66,9 @@ style="width:400px;height:250px;border:0;"></p>
 
 <p>Die Welt ist 1200 x 700 Zellen groß und 1 Pixel entspricht der Größe einer Zelle.</p>
 
-<p><img src="Images/MyWorld2.jpg" style="width:779px;height:386px;border:0;"></p>
+<p><img src="Images/MyWorld2.jpg" style="width:770px;height:347px;border:0;"></p>
 
-<p>Die "prepare"-Methode der Welt setzt zu Anfang des Szenarios eine Graph, einen Graph 2, einen Hintergrund, 300 Läuse und 30 Käfer in die Welt. <br>
+<p>Die "prepare"-Methode der Welt setzt zu Anfang des Szenarios einen Graph, einen Graph 2, 300 Läuse und 30 Käfer in die Welt. <br>
 Die Käfer und Läuse werden mit einer While-Schleife generiert. Solange weniger als 300 Läuse bzw. weniger als 30 Käfer in der Welt sind, werden jeweils neue hinzugefügt.</p>
 
 <p><img src="Images/MyWorld3.jpg" style="width:770px;height:278px;border:0;"></p>
@@ -150,6 +150,7 @@ Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht.
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
+<p><img src="Images/Graph.jpg" style="width:780px;height:527px;border:0;"></p>
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
