@@ -24,7 +24,7 @@
 
 <h2 style="color:Navy;"><a id="Bio">Biologische Grundlagen</a></h2>
 
-<p> 
+<p> Eine Räuber-Beute-Simulation spiegelt das reale Geschehen in der Natur wieder. Aufgrund dessen wurde auf die folgenden biologischen Grundregeln - bestimmt nach Volterra - Wert gelegt. <p/>
 
 <h3 style="color:Navy;"><a id="Lot">"Lotka-Volterra-Regeln"</a></h3>
 
@@ -33,7 +33,7 @@
 <ul style="color:CadetBlue;">
 <li>Erste Lotka-Volterra-Regel (Periodische Populationsschwankung): Die Populationsgrößen von Räuber und Beute schwanken periodisch. Dabei folgen die Schwankungen der Räuberpopulation phasenverzögert denen der Beutepopulation. Die Länge der Perioden hängt von den Anfangsbedingungen und von den Wachstumsraten der Populationen ab.</li>
 <li>Zweite Lotka-Volterra-Regel (Konstanz der Mittelwerte): Die über genügend lange Zeiträume gemittelten Größen (Mittelwert) der Räuber- bzw. Beutepopulation sind konstant. Die Größe der Mittelwerte hängt nur von den Wachstums- und Rückgangsraten der Populationen, nicht aber von den Anfangsbedingungen ab.</li>
-<li>Dritte Lotka-Volterra-Regel (Störung der Mittelwerte): Werden Räuber- und Beutepopulation gleichermaßen proportional zu ihrer Größe dezimiert, so vergrößert sich kurzfristig der Mittelwert der Beutepopulation, während der Mittelwert der Räuberpopulation kurzfristig sinkt.</li>
+<li>Dritte Lotka-Volterra-Regel (Störung der Mittelwerte): Werden Räuber- und Beutepopulation gleichermaßen proportional zu ihrer Größe dezimiert, so erholt und vermehrt sich die Beutepopulation stets schneller.</li>
 </ul>
 
 <p><img src="Images/lotka-volterra-kurve.gif" alt="Veranschaulichung der Lotka-Volterra-Regeln" 
