@@ -3,6 +3,8 @@
 <p>Informatik bei Herrn Buhl, 4. Halbjahr Qualifikationsphase</p>
 
 <p><a href="https://marliskrull.github.io/Stundenprotokoll_2/">Hier geht's zu unserem Stundenprotokoll!</a></p>
+
+<hr>
  
 <h1 style="color:CadetBlue;"><b>Ladybug Quest</b></h1>
 <p>Bitte entnehmen Sie unsere Räuber-Beute Simulation "Ladybug Quest" dem Informatikordner auf iSurfStormarn.</p>
@@ -46,7 +48,11 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h2 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h2>
 
+<hr>
+
 <h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
+
+<hr>
 
 <h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
 
@@ -69,11 +75,12 @@ style="width:400px;height:250px;border:0;"></p>
 <p><img src="Images/MyWorld2.jpg" style="width:770px;height:347px;border:0;"></p>
 
 <p>Die "prepare"-Methode der Welt setzt zu Anfang des Szenarios einen Graph, einen Graph 2, 300 Läuse und 30 Käfer in die Welt. <br>
-Die Käfer und Läuse werden mit einer While-Schleife generiert. Solange weniger als 300 Läuse bzw. weniger als 30 Käfer in der Welt sind, werden jeweils neue hinzugefügt.</p>
+Die Käfer und Läuse werden mit einer While-Schleife generiert. Solange weniger als 300 Läuse bzw. weniger als 30 Käfer in der Welt sind, werden jeweils neue hinzugefügt.<br>
+Außerdem wird noch das Bild "BarChart.jpg" auf die linken Seite des Hintergrunds gezeichnet.</p>
 
 <p><img src="Images/MyWorld3.jpg" style="width:770px;height:278px;border:0;"></p>
 
-<p>Die act-Methode der MyWorld enthält nur die Methode "countActors". Diese erstellt jeweils eine Liste ("Lauslist" und "Käferlist") von allen Läusen/Käfern in der Welt. Die Variablen "LausCounter" und "KäferCounter" vom Typ integer enthalten jeweils die Anzahl der Läuse/Käfer auf der "Lausliste"/"Käferliste". Sie ist public und kann daher von den Actors Graph und Graph2 abgerufen werden.</p>
+<p>Die act-Methode der MyWorld enthält nur die Methode "countActors". Diese erstellt jeweils eine Liste ("Lauslist" und "Käferlist") von allen Läusen/Käfern in der Welt. Die Variablen <a id="LauC">"LausCounter"</a> und <a id="KäfC">"KäferCounter"</a> vom Typ integer enthalten jeweils die Anzahl der Läuse/Käfer auf der "Lausliste"/"Käferliste". Sie ist public und kann daher von den Actors Graph und Graph2 abgerufen werden.</p>
 
 <hr>
 
@@ -150,13 +157,18 @@ Die Variable "DestructionTimer" vom Typ integer wird mit jedem Tic um 1 erhöht.
 
 <h4 style="color:CadetBlue;"><a id="Gra">der Graph</a></h4>
 
-<p>Der Graph besteht aus zwei verschiedenen Klassen, einmal "Graph" und einmal "Graph2". "Graph" ist für die visuelle Darstellung der Lauspopulation verantwortlich und "Graph2" für die der Käferpopulation. Leider ist es uns nicht gelungen, diese zwei Graphen mit nur einer Klasse darzustellen.</p>
+<p>Der Graph besteht aus zwei verschiedenen Klassen, einmal "Graph" und einmal "Graph2". <br>
+"Graph" ist für die visuelle Darstellung der Lauspopulation verantwortlich und "Graph2" für die der Käferpopulation. Leider ist es uns nicht gelungen, diese zwei Graphen mit nur einer Klasse darzustellen.</p>
 
 <p><img src="Images/Graph.jpg" style="width:780px;height:527px;border:0;"></p>
 
 <p>Dieser Screenshot ist aus der "Graph"-Klasse, die beiden Klassen funktionieren aber nach demselben Prinzip. <br>
 Zunächst wird ein Bild für die "Graph"-Klasse gewählt. In diesem Fall ist dieses Bild "blauerBalken.jpg". <br>
-Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skaliert. Die Skalierung richtet sich nach der Anzahl der Läuse in der Welt.  Hierzu wurde eine Variable "Timer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Wenn der "LausCounter"/5 größer ist als 1 und der Timer einen Wert von 5 erreicht hat wird das Bild neu skaliert. Die Breite des Bildes beträgt immer 15 und die Höhe wird durch die Variable "LausCounter" festgelegt. Anschließend wird der "Timer" noch resettet.  </p>
+Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skaliert. Die Skalierung richtet sich nach der Anzahl der Läuse in der Welt.  Hierzu wurde eine Variable "Timer" vom Typ integer erstellt, die mit jedem Tic um 1 erhöht wird. Wenn der 
+<a href="#LauC">"LausCounter"</a>/5 größer ist als 1 und der Timer einen Wert von 5 erreicht hat wird das Bild neu skaliert. Die Breite des Bildes beträgt immer 15 und die Höhe wird durch die Variable <a href="#LauC">"LausCounter"</a> festgelegt. Anschließend wird der "Timer" noch resettet.<br>
+"Graph2", der die Käferpopulation visualisiert, nutzt als Bild "roterBalken.jpg" und die Variable <a href="KäfC">"KäferCounter"</a> zur Skalierung der Höhe des Bildes.</p>
+
+<hr>
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
