@@ -172,7 +172,11 @@ Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skalier
 
 <h2 style="color:Navy;"><a id="Wei">Weitere Entwicklungsideen</a></h2>
 
-<p> Die Räuber-Beute-Simulation ist bereits naturgetreu dargestellt, sodass sich beispielsweise die Läuse jeweils schneller vermehren als die Käfer. Jedoch gibt es immer weiteres Entwicklungspotential. <br> So wäre die Einbringung verschiedener Mutationen ein weiterer Fortschritt. Je nach Mutation würden die besser angepassten überleben, so dass sich evt. die Farbe des Panzers oder die Größe verändert. <br> Zudem müssten die Läuse das Blatt fressen, auf welchem sie laufen. Auch eine Veränderung des Blattes und somit des Ökosystems wäre durch die Einführung von den vier Jahreszeiten interessant. </p>
+<p> Die Räuber-Beute-Simulation ist bereits naturgetreu dargestellt, sodass sich beispielsweise die Läuse jeweils schneller vermehren als die Käfer. Jedoch gibt es immer weiteres Entwicklungspotential. <br> So wäre die Einbringung verschiedener Mutationen ein weiterer Fortschritt. Je nach Mutation würden die besser angepassten überleben, so dass sich evt. die Farbe des Panzers oder die Größe verändert. Das Prinzip "Survival of the fittest" würde so Anwendung finden. </p>
+
+<p> Zudem müssten die Läuse das Blatt fressen können, auf welchem sie laufen. Dieses würde sich nach einiger Zeit regenerieren und nachwachsen. Auch eine Veränderung des Blattes und somit des Ökosystems wäre durch die Einführung der vier Jahreszeiten interessant. Bei einem beispielsweise dunklem Blatt im Herbst, wäre dann die Mutation einen dunklen Panzer zu haben vorteilhaft.</p>
+
+<p> Zuletzt wären anthropogene Einflüsse von Bedeutung. So würden beispielsweise beide Populationen durch einen Eingriff mit Pestizieden stark dezimiert werden oder sich andernfalls durch Schutz vergrößern. Die Auswertung dieser schwankenden Populationsgrößen führt wieder zurück auf die Lotka-Volterra-Regeln, sodass die naturgetreue realistische Darstellung stets berüchsichtigt ist. </p>
 
 <hr>
 
