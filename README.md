@@ -60,7 +60,7 @@ style="width:400px;height:250px;border:0;"></p>
 
 <p> Da jedes Lebewesen einen gewissen Duft besitzt, welcher andere anlocken oder abschrecken kann, sollten Pheromone zum Einsatz kommen. Die Läuse markieren durch ihre Bewegungen automatisch ihre Spur auf den Blattfasern. Diese Spur können die Marienkäfer anhand der Durftstoffe anschließend aufnehmen. Dadurch vermeiden sie selbst zu verhungern. </p> 
 
-<p> Eine Räuber-Beute-Simulation ist durch die stetig schwankenden Populationsgrößen beider Populationen gekennzeichnet. Um dies besser erkenntlich zu machen, werden beide Populationsgrößen graphisch dargestellt. Dabei ist, wie in den Lotka-Volterra-Regeln beschrieben, zu erkennen, dass sich die Beutepopulation anfangs schneller vermehrt. Zudem schwanken beide Populationen phasenverschoben, um einen Mittelwert. </p>
+<p> Eine Räuber-Beute-Simulation ist durch die stetig schwankenden Populationsgrößen beider Populationen gekennzeichnet. Um dies besser erkenntlich zu machen, werden beide Populationsgrößen graphisch dargestellt. Dabei ist, wie in den Lotka-Volterra-Regeln beschrieben, zu erkennen, dass sich die Beutepopulation anfangs schneller vermehrt. Zudem schwanken beide Populationen phasenverschoben um einen Mittelwert. </p>
 
 <p> Zudem gehören zu einer naturgetreuen Darstellung weitere Umwelteinflüsse, der Eingriff des Menschen sowie auftretende Mutationen und Rekombinationen, die zu neuen Vorteilen bzw. Nachteilen der Actors führen. (Leider ist es uns aufgrund von Zeitmangel noch nicht gelungen diese Punkte umzusetzen!) </p>
 
