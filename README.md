@@ -52,6 +52,10 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
 
+<p> Vom Biologieunterricht inspiriert, kam die Idee auf eine Räuber-Beute-Simulation zu gestalten. Ähnlich wie in diesem Beispiel, sollte das Projekt sehr naturgetreu dargestellt werden: https://phet.colorado.edu/en/simulation/natural-selection. </p>
+
+<p> Zunächst wurden die Actors - Läuse und Käfer - ausgewählt, wobei entscheidend war, dass die Actors nicht das typische Beispiel sind ( Hasen und Füchse ) wie in diesem Beispiel!!!!!!!!!!! Naturgetreue Bilder sollten verwendet werden, um die Simulation so realistisch wie möglich zu halten. 
+
 <hr>
 
 <h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
