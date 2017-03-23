@@ -132,7 +132,7 @@ Hierfür wird eine Variable "Lebensdauer" vom Typ integer erstellt, die mit jede
 <p><img src="Images/Käfer2.jpg" style="width:778px;height:165px;border:0;"></p>
 
 <p>Diese Methode bewirkt, dass der Käfer die Laus frisst. Wenn ein Käfer eine Laus berührt, wird die Laus entfernt. <br>
-Mit jeder gefressenen Laus wird die Variable "LausCounter" vom Typ integer um 1 erhöht.</p>
+Mit jeder gefressenen Laus wird die Variable <a id="#Laus">"LausCounter"</a> vom Typ integer um 1 erhöht.</p>
 
 <p><img src="Images/Käfer3.jpg" style="width:779px;height:275px;border:0;"></p>
 
@@ -142,7 +142,7 @@ So richtet sich der Käfer alle 35 Tics neu aus. Zudem richtet sich der Käfer n
 <p><img src="Images/Käfer4.jpg" style="width:782px;height:237px;border:0;"></p>
 
 <p>Diese Methode lässt den Käfer verhungern, wenn er nicht genügend Läuse gefressen hat. Dies ist sehr wichtig, da es die Käfer-Population von der Laus-Population abhängig macht.<br>
-Die Variable "HungerTimer" vom Typ integer steigt mit jedem Tic um 1. Wenn sie bei 100 angekommen ist, wird überprüft, ob der Käfer weniger als 5 Läuse gefressen hat. Dafür wird die Variable "LausCounter" verwendet, die mit jeder gefressenen Laus um 1 steigt. Wenn der Käfer weniger als 5 Läuse gefressen hat, wird er aus der Welt entfernt. "HungerTimer" und "LausCounter" werden anschließend auf 0 zurückgesetzt.</p>
+Die Variable "HungerTimer" vom Typ integer steigt mit jedem Tic um 1. Wenn sie bei 100 angekommen ist, wird überprüft, ob der Käfer weniger als 5 Läuse gefressen hat. Dafür wird die Variable <a href="#Laus">"LausCounter"</a> verwendet, die mit jeder gefressenen Laus um 1 steigt. Wenn der Käfer weniger als 5 Läuse gefressen hat, wird er aus der Welt entfernt. "HungerTimer" und "LausCounter" werden anschließend auf 0 zurückgesetzt.</p>
 
 <hr>
 
