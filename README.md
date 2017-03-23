@@ -62,7 +62,7 @@ style="width:400px;height:250px;border:0;"></p>
       <li><a href="#Käf">Die Käfer-Klasse"</a></li>
       <li><a href="#Phe">Die Pheromone-Klasse</a></li>
       <li><a href="#Gra">Der Graph</a></li>
-    </ul>
+</ul>
 
 <hr>
 
@@ -176,7 +176,7 @@ Mit der Methode "showLausCount" wird das Bild des Graphs alle 5 Tics neu skalier
 
 <p> Zudem müssten die Läuse das Blatt fressen können, auf welchem sie laufen. Dieses würde sich nach einiger Zeit regenerieren und nachwachsen. Auch eine Veränderung des Blattes und somit des Ökosystems wäre durch die Einführung der vier Jahreszeiten interessant. Bei einem beispielsweise dunklem Blatt im Herbst, wäre dann die Mutation einen dunklen Panzer zu haben vorteilhaft.</p>
 
-<p> Zuletzt wären anthropogene Einflüsse von Bedeutung. So würden beispielsweise beide Populationen durch einen Eingriff mit Pestizieden stark dezimiert werden oder sich andernfalls durch Schutz vergrößern. Die Auswertung dieser schwankenden Populationsgrößen führt wieder zurück auf die Lotka-Volterra-Regeln, sodass die naturgetreue realistische Darstellung stets berüchsichtigt ist. </p>
+<p> Zuletzt wären anthropogene Einflüsse von Bedeutung. So würden beispielsweise beide Populationen durch einen Eingriff mit Pestiziden stark dezimiert werden oder sich andernfalls durch Schutz vergrößern. Die Auswertung dieser schwankenden Populationsgrößen führt wieder zurück auf die Lotka-Volterra-Regeln, sodass die naturgetreue realistische Darstellung stets berücksichtigt ist. </p>
 
 <hr>
 
