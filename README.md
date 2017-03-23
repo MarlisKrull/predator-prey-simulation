@@ -52,20 +52,24 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
 
-<p> Vom Biologieunterricht inspiriert, kam die Idee auf eine Räuber-Beute-Simulation zu gestalten. Ähnlich wie in diesem Beispiel, sollte das Projekt sehr naturgetreu dargestellt werden: https://phet.colorado.edu/en/simulation/natural-selection. </p>
+<p> Vom Biologieunterricht inspiriert, kam die Idee auf eine Räuber-Beute-Simulation zu gestalten. Dabei sollte das Endprodukt möglichst authentisch aussehen. </p>
 
-<p> Zunächst wurden die Actors - Läuse und Käfer - ausgewählt, wobei entscheidend war, dass die Actors nicht das typische Beispiel sind ( Hasen und Füchse ) wie in diesem Beispiel!!!!!!!!!!! Naturgetreue Bilder sollten verwendet werden, um die Simulation so realistisch wie möglich zu halten. Zudem sollte das Verhalten beider Actor realistisch sein. </p>
+<p> Zunächst wurden die Actors - Läuse und Käfer - ausgewählt. Hierbei wurde Wert auf die Abweichung von der Standard-Simulation mit Hasen und Füchsen gelegt. Naturgetreue Bilder sollten verwendet werden, um die Simulation so realistisch wie möglich zu halten. Zudem sollte das Verhalten beider Actor realistisch sein. </p>
 
-<p> Daraus ist zu schließen, dass es männliche und weibliche Actor gibt. Diese vermehren sich nur zu einer bestimmten Wahrscheinlichkeit, wie im echten Leben auch. Die Läuse vermehren sich dabei jedoch früher und wahrscheinlicher als die Käfer. Des Weiteren fressen die Käfer die Läuse und verhungern nach einiger Zeit, wenn sie nichts mehr essen. Am Ende ihres Lebens sterben beide Actor. Die Käfer leben dabei - nach naturgetreuem Verhältnis - erneut länger als die Läuse. Die Läuse haben aufgrund ihrer großen Populationsdichte noch dichteregulierende Faktoren, die die Populationsgröße eindämmen. Hier ist dies der Faktor des sich Tottrampelns. </p>
+<p> Daraus ist zu schließen, dass es männliche und weibliche Actors gibt. Diese vermehren sich nur zu einer bestimmten Wahrscheinlichkeit, wie im echten Leben auch. Die Läuse vermehren sich dabei jedoch früher und wahrscheinlicher als die Käfer. Des Weiteren fressen die Käfer die Läuse und verhungern, wenn sie nichts mehr zu fressen finden. Am Ende ihres Lebens sterben beide Actor. Die Käfer leben dabei - nach naturgetreuem Verhältnis - erneut länger als die Läuse. Die Läuse haben aufgrund ihrer großen Populationsdichte noch dichteregulierende Faktoren, die die Populationsgröße eindämmen. Hier ist dies der Faktor des sich Tottrampelns. </p>
 
-<p> Eine Räuber-Beute-Simulation ist durch die stetig schwankenden Populationsgrößen beider Populationen gekennzeichnet. Um dies besser erkenntlich zu machen, werden beide Populationsgrößen graphisch dargestellt. 
+<p> Da jedes Lebewesen einen gewissen Duft besitzt, welcher andere anlocken oder abschrecken kann, sollten Pheromone zum Einsatz kommen. Die Läuse markieren durch ihre Bewegungen automatisch ihre Spur auf den Blattfasern. Diese Spur können die Marienkäfer anhand der Durftstoffe anschließend aufnehmen. Dadurch vermeiden sie selbst zu verhungern. </p> 
+
+<p> Eine Räuber-Beute-Simulation ist durch die stetig schwankenden Populationsgrößen beider Populationen gekennzeichnet. Um dies besser erkenntlich zu machen, werden beide Populationsgrößen graphisch dargestellt. Dabei ist, wie in den Lotka-Volterra-Regeln beschrieben, zu erkennen, dass sich die Beutepopulation anfangs schneller vermehrt. Zudem schwanken beide Populationen phasenverschoben, um einen Mittelwert. </p>
+
+<p> Zudem gehören zu einer naturgetreuen Darstellung weitere Umwelteinflüsse, der Eingriff des Menschen sowie auftretende Mutationen und Rekombinationen, die zu neuen Vorteilen bzw. Nachteilen der Actors führen. (Leider ist es uns aufgrund von Zeitmangel noch nicht gelungen diese Punkte umzusetzen!) </p>
 
 <hr>
 
 <h3 style="color:Navy;"><a id="Imp">Implementierung</a></h3>
 
 <ul style="color:CadetBlue;">
-<li><a href="#Wor">MyWorld </a></li>
+      <li><a href="#Wor">MyWorld </a></li>
       <li><a href="#Lau">Die Laus-Klasse </a></li>
       <li><a href="#Käf">Die Käfer-Klasse"</a></li>
       <li><a href="#Phe">Die Pheromone-Klasse</a></li>
