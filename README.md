@@ -48,6 +48,8 @@ style="width:400px;height:250px;border:0;"></p>
 
 <h2 style="color:Navy;"><a id="Sim">Simulationsentwicklung</a></h2>
 
+<p> Das Projekt "predator-prey-simulation" hat sich aus mehreren Ideen entwickelt. Es ist bereits so weit fortgeschritten, dass die Grundlagen der Beziehung zwischen Räubern und Beute sichtbar werden. </p>
+
 <hr>
 
 <h3 style="color:Navy;"><a id="Ide">Ideen</a></h3>
