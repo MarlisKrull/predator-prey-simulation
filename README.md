@@ -54,7 +54,11 @@ style="width:400px;height:250px;border:0;"></p>
 
 <p> Vom Biologieunterricht inspiriert, kam die Idee auf eine Räuber-Beute-Simulation zu gestalten. Ähnlich wie in diesem Beispiel, sollte das Projekt sehr naturgetreu dargestellt werden: https://phet.colorado.edu/en/simulation/natural-selection. </p>
 
-<p> Zunächst wurden die Actors - Läuse und Käfer - ausgewählt, wobei entscheidend war, dass die Actors nicht das typische Beispiel sind ( Hasen und Füchse ) wie in diesem Beispiel!!!!!!!!!!! Naturgetreue Bilder sollten verwendet werden, um die Simulation so realistisch wie möglich zu halten. 
+<p> Zunächst wurden die Actors - Läuse und Käfer - ausgewählt, wobei entscheidend war, dass die Actors nicht das typische Beispiel sind ( Hasen und Füchse ) wie in diesem Beispiel!!!!!!!!!!! Naturgetreue Bilder sollten verwendet werden, um die Simulation so realistisch wie möglich zu halten. Zudem sollte das Verhalten beider Actor realistisch sein. </p>
+
+<p> Daraus ist zu schließen, dass es männliche und weibliche Actor gibt. Diese vermehren sich nur zu einer bestimmten Wahrscheinlichkeit, wie im echten Leben auch. Die Läuse vermehren sich dabei jedoch früher und wahrscheinlicher als die Käfer. Des Weiteren fressen die Käfer die Läuse und verhungern nach einiger Zeit, wenn sie nichts mehr essen. Am Ende ihres Lebens sterben beide Actor. Die Käfer leben dabei - nach naturgetreuem Verhältnis - erneut länger als die Läuse. Die Läuse haben aufgrund ihrer großen Populationsdichte noch dichteregulierende Faktoren, die die Populationsgröße eindämmen. Hier ist dies der Faktor des sich Tottrampelns. </p>
+
+<p> Eine Räuber-Beute-Simulation ist durch die stetig schwankenden Populationsgrößen beider Populationen gekennzeichnet. Um dies besser erkenntlich zu machen, werden beide Populationsgrößen graphisch dargestellt. 
 
 <hr>
 
